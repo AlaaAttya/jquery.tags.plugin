@@ -30,8 +30,8 @@ jquery.tags.plugin
  - You can get your tags values in a single array by using this snippet
    
    <code>
-	var tags_arr = $('valueSelector').split("#");<br>
-	//removes the first emty element as the string starts with the delimiter
+	var tags_arr = $('valueSelector').split("#");<br/>
+	//removes the first emty element as the string starts with the delimiter<br/>
               tags_arr.shift();
    </code>
  - Hope you'll love it, you can use the attached example as your guide
