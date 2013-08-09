@@ -1,0 +1,36 @@
+<html>
+
+    <script src="jq.js"></script>
+    <script src="jquery.tags.plugin.js"></script>
+    <script>
+        $(function() {
+
+            $("#test").tags({
+                stylingClass: "selector",
+                valueSelector: "#tabs"
+            });
+
+        });
+
+    </script>
+    <style>
+        .selector{
+            background-color: hsl(100, 37%, 47%) !important;
+            border-radius:4px;
+            padding: 4px;
+            color:white;
+        }
+        #test{
+            border: 1px solid lightgray;
+        }
+        #test:focus{
+            border-color: rgba(82, 168, 236, 0.8);
+            outline: 0;
+            outline: thin dotted \9;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+            -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); 
+        }
+    </style>
+    <div id="test" style="height: 100px;width: 700px"></div>
+</html>
