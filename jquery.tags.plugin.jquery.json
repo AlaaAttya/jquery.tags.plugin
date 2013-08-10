@@ -1,0 +1,29 @@
+{
+    "name": "jquery.tags.plugin",
+    "title": "jquery tags plugin",
+    "description": "jQuery plugin creating visual tag style",
+    "keywords": [
+	"jquery.tags.plugin",
+        "tags",
+        "hashtag",
+        "tagstyle"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Alaa Attya Mohamed",
+        "url": "http://alaaattya.wordpress.com/",
+        "email": "alaa.attya@pngine.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/AlaaAttya/jquery.tags.plugin/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/AlaaAttya/jquery.tags.plugin/issues",
+    "homepage": "https://github.com/AlaaAttya/jquery.tags.plugin",
+    "docs": "https://github.com/AlaaAttya/jquery.tags.plugin",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}

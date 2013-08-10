@@ -5,7 +5,7 @@ jquery.tags.plugin
 
 - You can simple use this plgin to visualize your tags in a neat UI
 
-- You can just do so with only a single line of code, just apply this code to 
+- You can just do so with only a single line of code, apply this code to 
 
   *editable div* just like the following example
   
